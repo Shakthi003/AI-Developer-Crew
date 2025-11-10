@@ -1,6 +1,6 @@
 # 🤖 AI Developer Crew
 
-**AI Developer Crew** is an intelligent software development assistant that orchestrates a team of AI agents for **planning, coding, reviewing, and testing software projects**. Using **LangGraph**, **LangChain**, and local LLMs via **Ollama** (e.g., `gemma:2b`), it automates the software development lifecycle from requirement gathering to tested, production-ready code.
+**AI Developer Crew** is an intelligent software development assistant that orchestrates a team of AI agents for **planning, coding, reviewing, and testing software projects**. Using **LangGraph**, **LangChain**,**CrewAI** and local LLMs via **Ollama** (e.g., `gemma:2b`), it automates the software development lifecycle from requirement gathering to tested, production-ready code.
 
 ---
 
@@ -10,6 +10,7 @@ This project combines several powerful tools:
 
 * **LangGraph** – Define and manage stateful workflows of AI agents.
 * **LangChain** – Interact with local LLMs using prompt templates and chains.
+* **CrewAI** - Coordinate multiple specialized AI agents (Planner, Coder, Reviewer, Tester) to collaboratively automate the software development process.
 * **Streamlit** – Provides a **user-friendly web interface** for interacting with the AI Crew.
 * **Ollama** – Run local LLMs like `gemma:2b` **without cloud dependencies**.
 
@@ -103,6 +104,6 @@ ai-developer-crew/
 └─ README.md
 ```
 
-## Built With ❤️ using LangGraph, LangChain, Streamlit, Ollama (gemma:2b)
+## Built With ❤️ using LangGraph, LangChain, CrewAI, Ollama (gemma:2b)
 
 ---
